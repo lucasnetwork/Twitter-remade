@@ -1,0 +1,42 @@
+.post{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border-bottom:1px solid #eee;
+    padding:10px;
+}
+.post img{
+    height:70px;
+    border-radius: 50%;
+}
+.post .text{
+    margin-left:10px;
+    flex:1
+}
+.post .text textarea{
+    flex:1;
+    text-align: start;
+    width: 100%;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    resize: none;
+}
+.post .text .button-actions div svg{
+    color: rgb(0, 140, 255);
+    font-size:25px;
+    margin-right: 20px;
+}
+.post .text .button-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.post .text .button-actions button{
+    background-color: rgb(0, 140, 255);
+    border:none;
+    padding: 10px;
+    border-radius: 15px;
+    color:#fff;
+    font-weight: 700;
+}
