@@ -1,0 +1,32 @@
+.navigation{
+    height: 100%;
+    width:310px;
+    border-right: 1px solid #eee;
+}
+.navigation div{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+.navigation div nav{
+    display: flex;
+    flex-direction: column;
+}
+.navigation div nav svg{   
+    color:rgb(0, 140, 255)
+}
+.navigation div button{
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    background-color:rgb(0, 140, 255);
+    border:none;
+    margin:0 auto;
+    color:white
+}
+.navigation div nav li{
+    margin-bottom: 20px;
+    list-style: none;
+    font-size:30px;
+}
