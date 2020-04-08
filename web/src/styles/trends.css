@@ -1,0 +1,40 @@
+aside{
+    padding:20px;
+    width:350px;
+    height: 100%;
+}
+.trend{
+    background-color: rgb(245, 248, 250);
+    border-radius: 20px;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trend .header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+.trend a{
+    margin:10px
+}
+
+.trend ul li{
+    padding:20px;
+    border-top:1px solid #ddd;
+    padding:20px;
+    list-style: none;
+    transition: background-color 0.2s;
+}
+.trend ul li:hover{
+    background-color: #eee;
+}
+.trend ul li:last-child{
+    border-bottom: 1px solid #ddd;
+}
+.trend ul li span{
+    font-size: 0.8em;
+}
