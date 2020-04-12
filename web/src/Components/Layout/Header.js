@@ -1,6 +1,8 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {FaTwitter,FaHome,FaHashtag,FaBell,FaEnvelope, FaBookmark,FaListAlt} from 'react-icons/fa'
 import {IoIosMore} from 'react-icons/io'
+
 import '../../styles/header.css'
 export default function Header(){
     return(
@@ -8,13 +10,13 @@ export default function Header(){
             <div>
                 <nav>
                     <li><FaTwitter /></li>
-                    <li><FaHome />Home</li>
-                    <li><FaHashtag/>Explore</li>
-                    <li><FaBell/>Notifications</li>
-                    <li><FaEnvelope/>Messages</li>
-                    <li><FaBookmark/>Bookmarks</li>
-                    <li><FaListAlt/>Lists</li>
-                    <li><IoIosMore/>More</li>
+                    <li><Link><FaHome />Home</Link></li>
+                    <li><Link><FaHashtag/>Explore</Link></li>
+                    <li><Link><FaBell/>Notifications</Link></li>
+                    <li><Link><FaEnvelope/>Messages</Link></li>
+                    <li><Link><FaBookmark/>Bookmarks</Link></li>
+                    <li><Link><FaListAlt/>Lists</Link></li>
+                    <li><Link><IoIosMore/>More</Link></li>
                 </nav>
                 <button>Tweet</button>
             </div>
