@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaTwitter,FaHome,FaHashtag,FaBell,FaEnvelope, FaBookmark,FaListAlt} from 'react-icons/fa'
 import {IoIosMore} from 'react-icons/io'
@@ -10,7 +10,7 @@ export default function Header(){
             <div>
                 <nav>
                     <li><FaTwitter /></li>
-                    <li><Link><FaHome />Home</Link></li>
+                    <li ><Link><FaHome />Home</Link></li>
                     <li><Link><FaHashtag/>Explore</Link></li>
                     <li><Link><FaBell/>Notifications</Link></li>
                     <li><Link><FaEnvelope/>Messages</Link></li>
