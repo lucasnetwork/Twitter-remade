@@ -10,13 +10,48 @@ export default function Header(){
             <div>
                 <nav>
                     <li><FaTwitter /></li>
-                    <li ><Link><FaHome />Home</Link></li>
-                    <li><Link><FaHashtag/>Explore</Link></li>
-                    <li><Link><FaBell/>Notifications</Link></li>
-                    <li><Link><FaEnvelope/>Messages</Link></li>
-                    <li><Link><FaBookmark/>Bookmarks</Link></li>
-                    <li><Link><FaListAlt/>Lists</Link></li>
-                    <li><Link><IoIosMore/>More</Link></li>
+                    <li >
+                        <Link to="/">
+                            <FaHome />
+                            <p>Home</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/explore">
+                            <FaHashtag/>
+                            <p>Explore</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/notification">
+                            <FaBell/>
+                            <p>Notifications</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Messages">
+                            <FaEnvelope/>
+                            <p>Messages</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/bookmark">
+                            <FaBookmark/>
+                            <p>Bookmarks</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/list">
+                            <FaListAlt/>
+                            <p>Lists</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/more">
+                            <IoIosMore/>
+                            <p>More</p>
+                        </Link>
+                    </li>
                 </nav>
                 <button>Tweet</button>
             </div>
