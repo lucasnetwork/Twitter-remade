@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {GoGear} from 'react-icons/go'
 import '../../../styles/trends.css'
 export default function Trends(){
@@ -27,7 +28,7 @@ export default function Trends(){
                         <p>Rodrigo Amorim</p>
                     </li>
                 </ul>
-                <a>Show more</a>
+                <Link to="/">Show more</Link>
             </div>
         </aside>
     )

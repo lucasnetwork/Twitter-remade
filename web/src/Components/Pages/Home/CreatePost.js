@@ -4,7 +4,7 @@ import '../../../styles/createPost.css'
 export default function(){
     return(
         <article className="post">
-            <img src="https://pbs.twimg.com/profile_images/1195485835849879553/z8rcWtDZ_400x400.jpg"/>
+            <img alt="foto da pessoa"src="https://pbs.twimg.com/profile_images/1195485835849879553/z8rcWtDZ_400x400.jpg"/>
             <div class="text">
                 <textarea placeholder="no Que esta pensando"/>
                 <div className="button-actions">

@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import {FaTwitter,FaHome,FaHashtag,FaBell,FaEnvelope, FaBookmark,FaListAlt} from 'react-icons/fa'
 import {IoIosMore} from 'react-icons/io'
