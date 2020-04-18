@@ -28,6 +28,7 @@ aside{
     padding:20px;
     list-style: none;
     transition: background-color 0.2s;
+    
 }
 .trend ul li:hover{
     background-color: #eee;
@@ -37,4 +38,9 @@ aside{
 }
 .trend ul li span{
     font-size: 0.8em;
+}
+@media(max-width:900px){
+    aside{
+        display: none;
+    }
 }

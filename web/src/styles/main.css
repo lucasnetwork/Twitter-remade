@@ -6,3 +6,13 @@ main > div {
     flex:1;
     border-right: 1px solid #eee;
 }
+main .header-home{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-bottom: 1px solid #eee;
+}
+main .header-home svg{
+    color: rgb(0, 140, 255);
+}

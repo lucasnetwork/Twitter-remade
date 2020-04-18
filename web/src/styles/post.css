@@ -6,12 +6,24 @@
 .post-individual .text{
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin-left: 15px;
 }
 .post-individual img{
     margin-right:20px;
     height:50px;
     border-radius: 50%;
 }
+.post-individual .text img{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+    margin:15px 0;
+}
 .post-individual .text p{
     word-break: break-all;
+}
+.post-individual .text .post-link{
+    background-color: rgb(245, 248, 250);
+    border-radius: 10px;
 }
