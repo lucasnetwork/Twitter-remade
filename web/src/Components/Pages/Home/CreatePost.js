@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import {FaImage,FaChartBar} from 'react-icons/fa'
+import {ButtonTweet} from '../../../styles/Buttons'
 import '../../../styles/createPost.css'
 export default function({posts,set}){
     const [text,setText] = useState("")
@@ -22,7 +23,7 @@ export default function({posts,set}){
                         <FaImage/>
                         <FaChartBar/>
                     </div>
-                    <button onClick={handlerPost}>Tweet</button>
+                    <ButtonTweet onClick={handlerPost}>Tweet</ButtonTweet>
                 </div>
             </div>
         </article>

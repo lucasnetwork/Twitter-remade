@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {FaTwitter,FaHome,FaHashtag,FaBell,FaEnvelope, FaBookmark,FaListAlt} from 'react-icons/fa'
 import {IoIosMore} from 'react-icons/io'
-
+import {ButtonTweet} from '../../styles/Buttons'
 import '../../styles/header.css'
 export default function Header(){
     return(
@@ -53,7 +53,7 @@ export default function Header(){
                         </Link>
                     </li>
                 </nav>
-                <button>Tweet</button>
+                <ButtonTweet width={200} height={30}>Tweet</ButtonTweet>
             </div>
         </header>
     )

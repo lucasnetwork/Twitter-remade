@@ -18,15 +18,7 @@
     transition: 
     color 0.2s linear;
 }
-.navigation div button{
-    width:200px;
-    height:30px;
-    border-radius: 10px;
-    background-color:rgb(0, 140, 255);
-    border:none;
-    margin:0 auto;
-    color:white
-}
+
 .navigation div nav li{
     margin-bottom: 20px;
     list-style: none;

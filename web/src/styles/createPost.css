@@ -32,11 +32,3 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-.post .text .button-actions button{
-    background-color: rgb(0, 140, 255);
-    border:none;
-    padding: 10px;
-    border-radius: 15px;
-    color:#fff;
-    font-weight: 700;
-}
