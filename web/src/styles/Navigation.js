@@ -8,5 +8,12 @@ const Navigation = styled.header`
         min-width:100px
     }
 `
-
-export {Navigation}
+const MainButton = styled.li`
+    margin-bottom: 20px;
+    list-style: none;
+    font-size:30px;
+    :hover svg {
+    color:#000
+}
+`
+export {Navigation,MainButton}
