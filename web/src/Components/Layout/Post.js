@@ -1,19 +1,20 @@
 import React from 'react'
 import PostLink from './PostLink'
 import {ImagePerson,ImageText} from '../../styles/ImageTags'
-import '../../styles/post.css'
+import {TextPost,PostContent,TextContent} from '../../styles/Text'
+
 export default function Post({imagePerson,image,text,urlPostLink = false}){
     return(
-        <article className="post-individual">
+        <PostContent>
             <ImagePerson height="50px" alt="foto da pessoa" src={imagePerson}/>
-            <div className="text">
-                <p>{text}</p>
+            <TextContent>
+                <TextPost>{text}</TextPost>
                 {(image)? <ImageText alt="imagem"src={image}/> : ""}
                 
                 {(urlPostLink)?<PostLink  image="nada" text="hello world"/>: ""}
                 
-            </div>
+            </TextContent>
 
-        </article>
+        </PostContent>
     )
 }

@@ -10,8 +10,7 @@
 }
 .navigation div nav svg{   
     color:rgb(0, 140, 255);
-    transition: 
-    color 0.2s linear;
+    transition: color 0.2s linear;
 }
 .navigation div nav li a{
     display: flex;
@@ -23,11 +22,5 @@
     .navigation div nav p{
         transform: translateX(-100px);
         display: none;
-    }
-    .navigation div button{
-        width:50px
-    }
-    .navigation{
-        min-width:100px
     }
 }
