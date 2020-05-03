@@ -1,12 +1,16 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import Routes from './routes'
-import './styles/app.css'
+import {GlobalStyles} from './styles/Global'
+
 function App() {
   return (
-    <div className="App">
-      <Routes>
-      </Routes>
-    </div>
+    <>
+      <GlobalStyles/>
+      <div className="App">
+        <Routes>
+        </Routes>
+      </div>
+    </>
   );
 }
 
