@@ -16,7 +16,7 @@ const TextPost = styled.p`
 `
 const PostContent = styled.article`
     display: flex;
-    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
     padding: 10px;
 `
 const TextContent = styled.div`
