@@ -1,15 +1,4 @@
-.post{
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    border-bottom:1px solid #eee;
-    padding:10px;
-}
-.post .text{
-    margin-left:10px;
-    flex:1
-}
-.post .text textarea{
+textarea{
     flex:1;
     text-align: start;
     width: 100%;
@@ -18,12 +7,12 @@
     font-size: 20px;
     resize: none;
 }
-.post .text .button-actions div svg{
+.button-actions div svg{
     color: rgb(0, 140, 255);
     font-size:25px;
     margin-right: 20px;
 }
-.post .text .button-actions{
+.button-actions{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
