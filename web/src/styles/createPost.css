@@ -7,13 +7,3 @@ textarea{
     font-size: 20px;
     resize: none;
 }
-.button-actions div svg{
-    color: rgb(0, 140, 255);
-    font-size:25px;
-    margin-right: 20px;
-}
-.button-actions{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}

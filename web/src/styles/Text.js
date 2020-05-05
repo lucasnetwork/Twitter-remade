@@ -47,4 +47,14 @@ const TrendContent = styled.div`
         margin:10px;
     }
 `
-export {HeadContent,TextPost,TextHead,PostContent,TextContent,AsideContent,TrendContent,TextTiny}
+const ContentButtonActions = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    svg{
+        color: rgb(0, 140, 255);
+        font-size:25px;
+        margin-right: 20px;
+    }
+`
+export {HeadContent,TextPost,TextHead,PostContent,TextContent,AsideContent,TrendContent,TextTiny,ContentButtonActions}
