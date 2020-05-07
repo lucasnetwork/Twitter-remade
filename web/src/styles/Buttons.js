@@ -7,6 +7,7 @@ const ButtonTweet = styled.button`
     background-color:rgb(0, 140, 255);
     border:none;
     color:white;
+    cursor:pointer;
     @media(max-width:900px){
         width:50px
     }
