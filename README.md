@@ -1,10 +1,14 @@
 # Twitter Remade
 ![](.Github/frontend.png)
-Recriação do frontend do twitter,
-
-## Páginas
-Por enquanto, possui apenas a pagina home pronta
-
+Recriação do modelo da pagina home do twitter,
+## Components
+* Bookmarker
+* CreatePost
+* Trends
+* Header
+* Post
+* PostLink
+* Title
 ## Execução
     Execute yarn
     cd web
