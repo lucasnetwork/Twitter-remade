@@ -10,9 +10,9 @@ Recriação do modelo da pagina home do twitter,
 * PostLink
 * Title
 ## Execução
-    Execute yarn
+    Execute yarn ou npm i
     cd web
-    yarn start
+    yarn start ou npm start
 
 ## Autor
 * **Lucas Ribeiro** [LucasNetwork](https://github.com/LucasNetwork)
